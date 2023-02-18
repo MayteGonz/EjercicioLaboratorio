@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #242933;
+}
+
+.container {
+  margin: auto;
+  max-width: 30%;
+  margin-top: 50px;
+}
+.form {
+  border: 2px solid #40455d;
+  max-width: 400px;
+  margin: auto;
+  text-align: left;
+  background-color: #2f3644;
+  font-family: Inter, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 20px;
+}
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  color: #aebce3;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.formContent {
+  margin-bottom: 20px;
+}
+.formContent label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #8893b5;
+  font-weight: 500;
+}
+.formContent input {
+  width: 100%;
+  height: 35px;
+}
+.formButton input {
+  width: 100%;
+  height: 35px;
+  background-color: #6c63ff;
+  color: white;
+  display: block;
+}
+
+.msnError {
+  color: #b65255;
+  font-size: 12px;
+}
+.correct {
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 2px #4cc962;
+}
+
+.incorrect {
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 2px #b65255;
+}
+
+.errorIcon {
+  background-image: url("images/error-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position-x: 98%;
+  background-position-y: 50%;
+}
+.successIcon {
+  background-image: url("images/success-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position-x: 98%;
+  background-position-y: 50%;
+}

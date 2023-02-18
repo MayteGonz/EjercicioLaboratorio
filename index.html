@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <form id="form" action="" class="form">
+            <h1 class="title">Create Account</h1>
+            <div class="formContent">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name">
+                <span id="errorName" class="msnError"></span>
+            </div>
+            <div class="formContent email">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                <span id="errorEmail" class="msnError"></span>
+            </div>
+            <div class="formContent password">
+                <label for="password">Clave</label>
+                <input type="password" name="password" id="password">
+                <span id="errorPassword" class="msnError"></span>
+            </div>
+            <div class="formContent confirmPassword">
+                <label for="confirmPassword">Confirme su clave</label>
+                <input type="password" name="confirmPassword" id="confirmPassword">
+                <span id="errorConfirmPassword" class="msnError"></span>
+            </div>
+            <div class="formButton">
+                <input type="submit" value="ENVIAR" id="button">
+            </div>
+
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
